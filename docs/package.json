@@ -1,6 +1,13 @@
 {
   "private": true,
   "devDependencies": {
+    "cheerio": "^1.0.0-rc.12",
     "vitepress": "workspace:*"
+  },
+  "dependencies": {
+    "lunr": "^2.3.9"
+  },
+  "scripts": {
+    "lunr-index-build": "node ./components/search/lunr_build.js"
   }
 }
